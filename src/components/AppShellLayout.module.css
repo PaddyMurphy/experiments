@@ -1,0 +1,41 @@
+.shell {
+  min-height: 100vh;
+  /* Flat, low-contrast backdrop — no strong gradients */
+  background-color: #0c0c0f;
+}
+
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(12, 12, 15, 0.92);
+  backdrop-filter: blur(8px);
+}
+
+.title {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.navbar {
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(10, 10, 13, 0.85);
+}
+
+.navLink {
+  border-radius: var(--mantine-radius-md);
+}
+
+.githubLink {
+  opacity: 0.9;
+}
+
+.githubLink:hover {
+  opacity: 1;
+}
+
+.main {
+  min-height: calc(100vh - 56px);
+}
+
+.drawerContent {
+  background: #0c0c0f;
+}
